@@ -23,3 +23,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+boss = Boss("rick")
+battle(bob, boss)
