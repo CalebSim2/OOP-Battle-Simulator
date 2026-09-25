@@ -1,4 +1,5 @@
 from goblin import Goblin
+from hero import Hero
 
 
 ARENA_NAME = "The Titanium Castle"
@@ -9,6 +10,8 @@ def main():
     print(f"Welcome to {ARENA_NAME}!")
     print("༼ ᓄºل͟º ༽ᓄ   ᕦ(ò_óˇ)ᕤ")
     print("The gates are opening...")
+    hero = Hero("Your Hero Name")
+    print(f"The starlight warrior enters with {hero.name} and {hero.health} health")
 
     goblin = Goblin("Heatseeker")
 
